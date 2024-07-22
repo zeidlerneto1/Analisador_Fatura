@@ -2,6 +2,8 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 
+# nao fiz esse codigo, mas ele sera crucial para testar meu programa.
+
 def gerar_pdf(caminho_arquivo):
     c = canvas.Canvas(caminho_arquivo, pagesize=letter)
     largura, altura = letter
